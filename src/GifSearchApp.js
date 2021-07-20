@@ -13,7 +13,7 @@ const GifSearchApp = () => {
     return (
         <>
             <h2>GifSearchApp</h2>
-            <AddCategory />
+            <AddCategory setCategories={ setCategories }/>
             <hr />
 
 
