@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
+import { DiReact } from "react-icons/di"; 
 
 const GifSearchApp = () => {
     // const categories = ['One punch', 'Samurai X', 'Dragon ball'];
-    const [categories, setCategories] = useState(['One punch']);
+    const [categories, setCategories] = useState(['Attack on Titan']);
 
     // const handleAdd = () => {
     //     // setCategories( ['Attack on Titan', ...categories]);
@@ -12,10 +13,14 @@ const GifSearchApp = () => {
     // }
 
     return (
-        <>
-            <h2>GifSearchApp</h2>
-            <AddCategory setCategories={ setCategories }/>
-            <hr />
+        <>  
+            <div className="header-block">
+                <div className="title-block">
+                    <h2>GifSearchApp</h2>
+                    <DiReact className="reactIcon"/>
+                </div>
+                <AddCategory setCategories={ setCategories }/>
+            </div>
 
 
             <ol>
