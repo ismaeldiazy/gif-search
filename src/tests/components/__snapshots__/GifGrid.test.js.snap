@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on GifGrid component component should render correctly 1`] = `
+<Fragment>
+  <h3>
+     
+    Attack on Titan
+     
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`tests on GifGrid component should render items when images are load with useFetchGifs custom hook 1`] = `
+<Fragment>
+  <h3>
+     
+    Attack on Titan
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Cualquiercosa"
+      url="https://localhost/cualquier/cosa.jpg"
+    />
+    <GifGridItem
+      id="DEF"
+      key="DEF"
+      title="Cosacualquier"
+      url="https://localhost/cosa/cualquier.jpg"
+    />
+    <GifGridItem
+      id="DEFG"
+      key="DEFG"
+      title="Cosacualquier"
+      url="https://localhost/cosa/cualquier.jpg"
+    />
+  </div>
+</Fragment>
+`;

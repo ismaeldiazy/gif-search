@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing GifSearchApp should match snapshot 1`] = `
+<Fragment>
+  <div
+    className="header-block"
+  >
+    <div
+      className="title-block"
+    >
+      <h2>
+        GifSearchApp
+      </h2>
+      <DiReact
+        className="reactIcon"
+      />
+    </div>
+    <AddCategory
+      setCategories={[Function]}
+    />
+  </div>
+  <ol>
+    <GifGrid
+      category="Berserk"
+      key="Berserk"
+    />
+  </ol>
+</Fragment>
+`;

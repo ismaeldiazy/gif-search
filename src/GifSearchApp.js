@@ -3,9 +3,9 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 import { DiReact } from "react-icons/di"; 
 
-const GifSearchApp = () => {
+export const GifSearchApp = ( ) => {
     // const categories = ['One punch', 'Samurai X', 'Dragon ball'];
-    const [categories, setCategories] = useState(['Attack on Titan']);
+    const [categories, setCategories] = useState( ['Berserk'] );
 
     // const handleAdd = () => {
     //     // setCategories( ['Attack on Titan', ...categories]);
